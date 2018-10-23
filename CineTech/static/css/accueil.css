@@ -1,0 +1,54 @@
+.nav > div {
+    padding: 0 1em;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .expend {
+    width: 20rem;
+}
+
+nav #content-search {
+    transition-duration: 0.5s;
+}
+
+
+
+#icon-search {
+    color: #FFFFFF !important;
+}
+
+.section {
+    padding: 0 2em;
+    color: #ececec;
+    min-height: 75vh;
+}
+
+.description {
+    text-align: justify;
+}
+
+
+/*  Breadcump */
+.chemin {
+    margin: 1em 2em 0 2em;
+}
+
+
+/*  Partie liste de cartes de films */
+
+.carte {
+    width: 10vw;
+}
+
+section {
+    padding-top: 2em;
+}
+
+input {
+    color: #FFFFFF !important;
+}

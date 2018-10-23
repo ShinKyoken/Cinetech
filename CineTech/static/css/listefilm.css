@@ -1,0 +1,19 @@
+.grille-genres {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.lien-categorie:hover {
+    background: #37474f !important;
+}
+
+.cacher {
+    display: none;
+}
+
+#recherche {
+    color: #FFFFFF !important;
+}

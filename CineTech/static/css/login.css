@@ -1,0 +1,38 @@
+.form-connexion,
+.form-inscription {
+    background: #ECECEC;
+    position: absolute;
+    top: 5vw;
+    left: 37vw;
+    width: 20em;
+    padding: 2em;
+    text-align: center;
+}
+
+.form-inscription {
+    width: 50em;
+    left: 22vw;
+}
+
+
+.logo {
+    background: #e0e0e0;
+    width: 8em;
+    border-radius: 8em;
+}
+
+.submit {
+    width: 100%;
+}
+
+.submit > input {
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.new-compte {
+    font-size: 0.8em;
+    position: relative;
+    left: 6em;
+}

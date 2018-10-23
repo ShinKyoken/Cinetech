@@ -1,0 +1,45 @@
+.affiche-film {
+    display: inline-block;
+    width: 10em;
+}
+
+.affiche-film h5,
+.affiche-film h6 {
+    margin: 0;
+}
+
+.affiche-film h5 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #aaaaaa;
+    width: 10em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.affiche-film h6 {
+    font-size: 0.7em;
+    margin-top: 0.4em;
+    color: #888888;
+}
+
+.affiche-film h7{
+    display: none;
+}
+
+.affiche-film img {
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+.list-films {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-films > li {
+    flex: 1 1 initial;
+    margin: 1em 0.7em;
+    list-style-type: none;
+}

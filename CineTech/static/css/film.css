@@ -1,0 +1,39 @@
+.entete {
+    margin-top: 2em;
+}
+
+.affiche {
+    width: 10em;
+    border-radius: 0.5em;
+}
+
+.descriptif {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.descriptif .titre-film {
+    margin-top: 0;
+}
+
+.liste-vote  .etoile-vote{
+    color: #ffeb3b;
+}
+
+.liste-vote .etoile {
+    display: inline-block;
+}
+
+.liste-vote {
+    margin: 0;
+}
+
+.badge-info {
+    margin: 0.3em 0;
+    padding: 0.5rem 1rem;
+}
+
+.badge-label {
+    margin: 0;
+    font-size: 0.8em;
+}
